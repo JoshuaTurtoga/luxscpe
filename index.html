@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Use for Responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Link for Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <!-- Link for Parallax Effect -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <!-- Link for Swiper Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link for Scroll Reveal Library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Links -->
+
+    <title>Luxscpe</title>
+</head>
+<div>
+    <!-- NavBar -->
+    <header>
+        <a href="index.html" class="brand">Luxscpe</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#properties">Properties</a>
+            <a href="index.html#FAQ">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="btn-2 btn-visible" onclick="window.location.href='contact.html'">Contact Us</button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <!-- NavBar End -->
+
+    <!-- Hero Selection -->
+    <section class="hero-page">
+        <div class="hero-page-headlines">
+            <h6 id="hero-slogan">
+                Discover a World of Comfort, Luxury, and Style in Every Residence.
+            </h6>
+
+            <h1 id="hero-title">
+                Elevate Your Living Experience with Luxscpe Homes
+            </h1>
+
+            <p id="hero-description">
+                Explore a curated collection of thoughtfully designed residence,
+                where every detail reflects a commitment to unparalleled comfort,
+                timeless aesthetic, and a lifestyle tailored just for you.
+            </p>
+
+            <div id="hero-btn">
+                <button type="button" class="btn-2 btn-heropage" onclick="window.location.href='index.html#properties'">View Properties</button>
+                <button type="button" class="btn-2 btn-transparent" onclick="window.location.href='contact.html'">Get more info</button>
+            </div>
+        </div>
+
+        <div class="hero-page-imgs">
+            <img src="images/hero-page-1.png" alt="Img" class="hero-page-img"/>
+            <img src="images/hero-page-2.png" alt="Img" class="hero-page-img"/>
+            <img src="images/hero-page-3.png" alt="Img" class="hero-page-img"/>
+        </div>
+    </section>
+
+    <!-- Collaborated Brands -->
+    <div class="collab">
+        <img src="images/logos/logo-1.png" alt="Logo"/>
+        <img src="images/logos/logo-2.png" alt="Logo"/>
+        <img src="images/logos/logo-3.png" alt="Logo"/>
+        <img src="images/logos/logo-4.png" alt="Logo"/>
+        <img src="images/logos/logo-5.png" alt="Logo"/>
+    </div>
+
+    <!-- About Section -->
+    <section  class="about" id="about">
+        <div class="about-imgs">
+            <h1>Why Choose Us?</h1>
+            <img src="images/about-1.png" alt="Img" class="about-img"/>
+            <img src="images/about-2.png" alt="Img" class="about-img"/>
+            <img src="images/about-3.png" alt="Img" class="about-img"/>
+            <img src="images/about-4.png" alt="Img" class="about-img"/>
+        </div>
+
+        <div class="about-headlines">
+            <h2>Bringing a touch of heart and soul to every home</h2>
+            <p>
+                We take pride in our clients' satisfaction with their finished
+                YourWorld homes.
+            </p>
+            <!-- Current Projects -->
+            <div class="about-projects">
+                <div>
+                    <h4>Current Projects</h4>
+                    <hr/>
+                </div>
+                <h5>10+</h5>
+                <p>
+                    Check out our latest projects - Many homes waiting to become your
+                    happy space!
+                </p>
+            </div>
+
+            <!-- Finished Projects -->
+            <div class="about-projects">
+                <div>
+                    <h4>Finished Projects</h4>
+                    <hr/>
+                </div>
+                <h5>30+</h5>
+                <p style="margin-bottom: 40px;">
+                    because we believe your space should be your sanctuary, Where your 
+                    living space becomes the heart.
+                </p>
+            </div>
+
+            <button type="button" class="btn-2 btn-transparent" style="width: 269px" onclick="window.location.href='contact.html'">Get more info</button>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <div class="services" id="services">
+        <h1>We Buy, Sell, Rent Properties</h1>
+        <p>Count on us in finding the perfect home that suits your lifestyles and aspirations.</p>
+
+        <div class="services-boxes">
+
+            <!-- Buy Properties -->
+            <a href="service-buy.html">
+                <div class="services-box service-buy">
+                    <i class="fa-solid fa-house" id="service-logo"></i>
+                    <h4>Buy Properties</h4>
+                    <p>We curate dream homes for you - find your perfect match with 
+                    Luxscpe, where buying meets exceeding expectations.
+                    </p>
+                    <i class="fa-solid fa-arrow-right" id="arrow logo"></i>
+                </div>
+            </a>
+
+            <!-- Sell Properties -->
+            <a href="service-sell.html">
+                <div class="services-box service-sell">
+                    <i class="fa-solid fa-hand-holding-dollar" id="service-logo"></i>
+                    <h4>Sell Properties</h4>
+                    <p>We showcase not just listings but opportunities for a seamless and 
+                    profitable sale, ensuring your real estate is in the right hand.
+                    </p>
+                    <i class="fa-solid fa-arrow-right" id="arrow logo"></i>
+                </div>
+            </a>
+
+            <!-- Rent Properties -->
+            <a href="service-rent.html">
+                <div class="services-box service-rent">
+                    <i class="fa-solid fa-key" id="service-logo"></i>
+                    <h4>Rent Properties</h4>
+                    <p>We provide not just homes but experiences, ensuring your rental 
+                    journey is both effortless and satisfying.
+                    </p>
+                    <i class="fa-solid fa-arrow-right" id="arrow logo"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Properties Section -->
+    <section class="properties" id="properties">
+        <h1 id="properties-title"><b>Luxscpe</b> Properties</h1>
+        <p id="properties-description">Elevating Living, One Home at a Time</p>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <!-- Property #1 -->
+                    <div class="property">
+                        <div class="overlay">
+                            <div class="property-stats">
+                                <div class="property-name">
+                                    <h6>Harmony Heaven</h6>
+                                    <p>Bohol, Talibon</p>
+                                </div>
+                                <button type="button" class="btn-2 btn-transparent btn-property" onclick="window.location.href='property.html'">Details</button>
+                            </div>
+                        </div>
+                        <img src="images/property-1.png" alt="Img" class="property-img"/>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <!-- Property #2 -->
+                    <div class="property">
+                        <div class="overlay">
+                            <div class="property-stats">
+                                <div class="property-name">
+                                    <h6>Serenity Springs</h6>
+                                    <p>Cebu City, Danao</p>
+                                </div>
+                                <button type="button" class="btn-2 btn-transparent btn-property" onclick="window.location.href='property2.html'">Details</button>
+                            </div>
+                        </div>
+                        <img src="images/property-2.png" alt="Img" class="property-img"/>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <!-- Property #3 -->
+                    <div class="property">
+                        <div class="overlay">
+                            <div class="property-stats">
+                                <div class="property-name">
+                                    <h6>Tranquil Terrace</h6>
+                                    <p>Leyte, Consuegra</p>
+                                </div>
+                                <button type="button" class="btn-2 btn-transparent btn-property" onclick="window.location.href='property3.html'">Details</button>
+                            </div>
+                        </div>
+                        <img src="images/property-3.png" alt="Img" class="property-img"/>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <!-- Property #4 -->
+                    <div class="property">
+                        <div class="overlay">
+                            <div class="property-stats">
+                                <div class="property-name">
+                                    <h6>Breeze Residence</h6>
+                                    <p>Davao, Baguio</p>
+                                </div>
+                                <button type="button" class="btn-2 btn-transparent btn-property" onclick="window.location.href='property4.html'">Details</button>
+                            </div>
+                        </div>
+                        <img src="images/property-4.png" alt="Img" class="property-img"/>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <!-- Property #5 -->
+                    <div class="property">
+                        <div class="overlay">
+                            <div class="property-stats">
+                                <div class="property-name">
+                                    <h6>Majestic Meadows</h6>
+                                    <p>Manila, San Andres</p>
+                                </div>
+                                <button type="button" class="btn-2 btn-transparent btn-property" onclick="window.location.href='property5.html'">Details</button>
+                            </div>
+                        </div>
+                        <img src="images/property-5.png" alt="Img" class="property-img"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="swiper-custom-nav">
+                <div class="swiper-custom-nav-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="swiper-custom-nav-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="FAQ" id="FAQ">
+        <div class="faq-header">
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+            <a href="contact.html">
+                <div class="ask-more">
+                    <p>ASK US MORE</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="accordion">
+                
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="javascript:void(0)" onclick="toggleAccordion('question1')">
+                        <div class="accordion-title">
+                            <h3>What types of properties does Luxscpe offer?</h3>
+                        </div>
+                        <i class="fa-solid fa-arrow-up" id="accordion-arrow"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Luxscpe specializes in a diverse range of properties, 
+                            including luxury homes, condominiums, and stylish apartments. 
+                            Our portfolio is designed to carter to various preferences and 
+                            lifestyles.
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="javascript:void(0)" onclick="toggleAccordion('question2')">
+                        <div class="accordion-title">
+                            <h3>How can I start the process of buying a property with Luxscpe?</h3>
+                        </div>
+                        <i class="fa-solid fa-arrow-up" id="accordion-arrow"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Initializing your property purchase journey with Luxscpe is 
+                            easy. Simply explore our listings, and when you find a property 
+                            of interest, contact our dedicated team. We'll guide you through 
+                            the entire process, from viewings to the final transaction.
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="javascript:void(0)" onclick="toggleAccordion('question3')">
+                        <div class="accordion-title">
+                            <h3>What sets Luxscpe apart from other real estate provider?</h3>
+                        </div>
+                        <i class="fa-solid fa-arrow-up" id="accordion-arrow"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Luxscpe stands out for its commitment to innovation, quality, 
+                            and personalized service. Our properties are crafted with 
+                            attention to detail, and we prioritize customer satisfaction, 
+                            ensuring a seamless and delightful experience for our clients.
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="javascript:void(0)" onclick="toggleAccordion('question4')">
+                        <div class="accordion-title">
+                            <h3>Can I list my property for sale with Luxscpe?</h3>
+                        </div>
+                        <i class="fa-solid fa-arrow-up" id="accordion-arrow"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Absolutely! Luxscpe welcomes property owners looking to sell. 
+                            Connect with our experienced team, and we'll guide you through 
+                            the listing process, leveraging our expertise to maximize the 
+                            potential of your property in the market.
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="accordion-item" id="question5">
+                    <a class="accordion-link" href="javascript:void(0)" onclick="toggleAccordion('question5')">
+                        <div class="accordion-title">
+                            <h3>What rental options are available through Luxscpe?</h3>
+                        </div>
+                        <i class="fa-solid fa-arrow-up" id="accordion-arrow"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Luxscpe offers a variety of rental options, from short-term 
+                            leases to long-term arrangement. Whenever you're seeking a 
+                            temporary residence or a place to settle down, our rental 
+                            portfolio is designed to meet specific needs. Explore our 
+                            listings or contact us for personalized assistance.
+                        </p>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <div class="testimonials">
+        <h1>Hear From Clients Around The <b>World</b></h1>
+        <h6>
+            Hear Whats Our Valued Clients Have to Say about their Luxscpe 
+            Experience.
+        </h6>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Testimony #1 -->
+                <div class="swiper-slide testimony-slide">
+                    <div class="testimony">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            Luxscpe made my home-buying journey seamless and enjoyable.
+                            From the first viewing to holding the keys, their commitment to 
+                            excellence shines through.
+                        </p>
+                        <div class="testimony-people">
+                            <p>Carl Dave T.</p>
+                            <span>Home Buyer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimony #2 -->
+                <div class="swiper-slide testimony-slide">
+                    <div class="testimony">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            Listing my property with Luxscpe was the right choice. Their 
+                            marketing prowess and dedication led to a swift sale, and I 
+                            couldn't be happier with the results.
+                        </p>
+                        <div class="testimony-people">
+                            <p>Niel Jun I.</p>
+                            <span>Satisfied Seller</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimony #3 -->
+                <div class="swiper-slide testimony-slide">
+                    <div class="testimony">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            I had a fantastic experience at this rental house.
+                            Luxscpe was clean, well-equipped, and conveniently located.
+                            The host was incredibly accommodating. I highly recommend it 
+                            for a relaxing getaway.
+                        </p>
+                        <div class="testimony-people">
+                            <p>Flordel Jobie T.</p>
+                            <span>Delighted Renter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimony #4 -->
+                <div class="swiper-slide testimony-slide">
+                    <div class="testimony">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            Luxscpe's investment advice proved invaluable. Their keen 
+                            market insights guided my decisions, resulting in a profitable 
+                            venture.
+                        </p>
+                        <div class="testimony-people">
+                            <p>Angel Grace M.</p>
+                            <span>Impressed Investor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimony #5 -->
+                <div class="swiper-slide testimony-slide">
+                    <div class="testimony">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            Our second property with Luxscpe reaffirmed their consistency 
+                            in delivering excellence.
+                        </p>
+                        <div class="testimony-people">
+                            <p>Berjoy and Vince A.</p>
+                            <span>Repeat Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="swiper-custom-nav testimonial-nav">
+                <div class="swiper-custom-nav-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="swiper-custom-nav-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="contact-callout">
+            <h4>Connect with Luxscpe for Your Next Chapter in Home Ownership</h4>
+            <p>
+                Experience excellence in real estate - Your dream home is just a click 
+                away. <br/>Reach out to us for personalized service and unparalleled 
+                living spaces.
+            </p>
+            <button type="button" class="btn-2 btn-callout" onclick="window.location.href='contact.html'">Contact Us</button>
+        </div>
+        <div class="bottom-footer">
+            <div class="footer-contacts">
+                <a href="index.html"><h4>Luxscpe</h4></a>
+                <div>
+                    <p>143, Carlos P. Garcia St.</p>
+                    <p>Philippines</p>
+                    <p>+63-960-326-9961</p>
+                    <p class="copyright"><br><br>Copyright © 2024 Luxscpe | Designed by Jswtrtg.</p>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <div class="footer-links-container">
+                    <div class="footer-links">
+                        <h4>Company</h4>
+                        <div class="footer-link">
+                            <a href="index.html">Home</a>
+                            <a href="index.html#about">About</a>
+                            <a href="index.html#properties">Properties</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+        
+                    <div class="footer-links">
+                        <h4>Explore</h4>
+                        <div class="footer-link">
+                            <a href="https://www.google.com/maps/d/viewer?mid=17iFTA0ZbaiFPhx-mOifKURqR4dk&hl=en&ll=9.588814375069004%2C124.21538237130986&z=9">Bohol</a>
+                            <a href="https://www.google.com/maps/d/viewer?mid=15CYbCTdpxgkYy1pvL_jZXe4u8Mc&hl=en_US&ll=10.29235535365306%2C123.81993000000001&z=9">Cebu City</a>
+                            <a href="https://www.google.com/maps/d/viewer?mid=1Wd2oat5y_DK7GPG1DKEx-rqcq6FWCK7z&hl=en_US&ll=11.212859676044094%2C124.74403780742186&z=9">Leyte</a>
+                            <a href="https://www.google.com/maps/d/viewer?mid=1UeM4GtgDCsGHYtIQF_CWbc6j0bU&hl=en&ll=7.0735836232495615%2C125.60605650000001&z=14">Davao City</a>
+                            <a href="https://www.google.com/maps/d/viewer?mid=1l4Clf7zV6PiFP7rAK0ML9Em8vTg&hl=en&ll=14.567218892378763%2C121.02926200000002&z=11">Manila</a>
+                        </div>
+                    </div>
+        
+                    <div class="footer-links">
+                        <h4>Support</h4>
+                        <div class="footer-link">
+                            <a href="index.html#FAQ">FAQ</a>
+                            <a href="service-buy.html">Buy Properties</a>
+                            <a href="service-sell.html">Sell Properties</a>
+                            <a href="service-rent.html">Rent Properties</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="discounts">
+                    <h4>Get Discounts and Offers</h4>
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="24b21af5-c8f4-4651-9ddf-ec1fc21d490a"/>
+                        <input type="text" name="Email" id="email"/>
+                        <button class="btn-2 btn-submit" type="submit">Submit</button>
+                    </form>
+
+                    <div class="socials">
+                        <a href="https://web.facebook.com/Turtoga.Joshua20/" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/jswtrtg/" target="_blank">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/iamjoshuagarcia?lang=en" target="_blank">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@joshuagarciavlogsupdate1848" target="_blank">
+                            <i class="fa-brands fa-square-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
+
+
